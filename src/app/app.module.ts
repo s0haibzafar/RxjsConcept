@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 // import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
+import { NpromoiseComponent } from './npromoise/npromoise.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    NpromoiseComponent
   ],
   imports: [
     // NgbModule,
