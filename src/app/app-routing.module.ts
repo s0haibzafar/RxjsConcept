@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NpromoiseComponent } from './npromoise/npromoise.component';
 
 
 const routes: Routes = [
-  // {
-  //   path :'',
-  //   component:HomeComponent
-  // },
+  {
+    path :'promoise',
+    component:NpromoiseComponent
+  },
+  {
+    path :'**',
+    redirectTo: 'promoise'
+  },
  
 ];
 
