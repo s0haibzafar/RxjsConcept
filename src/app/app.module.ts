@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { NpromoiseComponent } from './npromoise/npromoise.component';
+import { NobservableComponent } from './nobservable/nobservable.component';
+import { ListComponent } from './nobservable/list/list.component';
+import { FromEventComponent } from './nobservable/from-event/from-event.component';
+import { ItemCardComponent } from './components/item-card/item-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NpromoiseComponent
+    NpromoiseComponent,
+    NobservableComponent,
+    ListComponent,
+    FromEventComponent,
+    ItemCardComponent
   ],
   imports: [
     // NgbModule,
