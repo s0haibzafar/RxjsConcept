@@ -1,18 +1,35 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NpromoiseComponent } from './npromoise/npromoise.component';
+import { NobservableComponent } from './nobservable/nobservable.component';
+import { ListComponent } from './nobservable/list/list.component';
+import { FromEventComponent } from './nobservable/from-event/from-event.component';
 
 
 const routes: Routes = [
   {
-    path :'promoise',
-    component:NpromoiseComponent
+    path: 'promoise',
+    component: NpromoiseComponent
   },
   {
-    path :'**',
+    path: 'observable',
+    component: NobservableComponent,
+    children: [
+      {
+        path: '',
+        component: ListComponent,
+      },
+      {
+        path: 'from-event',
+        component: FromEventComponent,
+      }
+    ]
+  },
+  {
+    path: '**',
     redirectTo: 'promoise'
   },
- 
+
 ];
 
 @NgModule({
