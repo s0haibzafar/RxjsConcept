@@ -4,6 +4,7 @@ import { NpromoiseComponent } from './npromoise/npromoise.component';
 import { NobservableComponent } from './nobservable/nobservable.component';
 import { ListComponent } from './nobservable/list/list.component';
 import { FromEventComponent } from './nobservable/from-event/from-event.component';
+import { IntervalComponent } from './nobservable/interval/interval.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path: 'from-event',
         component: FromEventComponent,
+      },
+      {
+        path: 'interval',
+        component: IntervalComponent,
       }
     ]
   },
