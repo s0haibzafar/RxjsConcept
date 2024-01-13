@@ -10,6 +10,7 @@ import { NobservableComponent } from './nobservable/nobservable.component';
 import { ListComponent } from './nobservable/list/list.component';
 import { FromEventComponent } from './nobservable/from-event/from-event.component';
 import { ItemCardComponent } from './components/item-card/item-card.component';
+import { IntervalComponent } from './nobservable/interval/interval.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ItemCardComponent } from './components/item-card/item-card.component';
     NobservableComponent,
     ListComponent,
     FromEventComponent,
-    ItemCardComponent
+    ItemCardComponent,
+    IntervalComponent
   ],
   imports: [
     // NgbModule,
