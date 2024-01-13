@@ -5,6 +5,7 @@ import { NobservableComponent } from './nobservable/nobservable.component';
 import { ListComponent } from './nobservable/list/list.component';
 import { FromEventComponent } from './nobservable/from-event/from-event.component';
 import { IntervalComponent } from './nobservable/interval/interval.component';
+import { OfFromComponent } from './nobservable/of-from/of-from.component';
 
 
 const routes: Routes = [
@@ -27,7 +28,11 @@ const routes: Routes = [
       {
         path: 'interval',
         component: IntervalComponent,
-      }
+      },
+      {
+        path: 'ofFrom',
+        component: OfFromComponent,
+      },
     ]
   },
   {

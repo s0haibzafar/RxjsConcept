@@ -11,6 +11,7 @@ import { ListComponent } from './nobservable/list/list.component';
 import { FromEventComponent } from './nobservable/from-event/from-event.component';
 import { ItemCardComponent } from './components/item-card/item-card.component';
 import { IntervalComponent } from './nobservable/interval/interval.component';
+import { OfFromComponent } from './nobservable/of-from/of-from.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { IntervalComponent } from './nobservable/interval/interval.component';
     ListComponent,
     FromEventComponent,
     ItemCardComponent,
-    IntervalComponent
+    IntervalComponent,
+    OfFromComponent
   ],
   imports: [
     // NgbModule,
