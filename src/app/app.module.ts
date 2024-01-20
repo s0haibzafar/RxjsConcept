@@ -12,6 +12,7 @@ import { FromEventComponent } from './nobservable/from-event/from-event.componen
 import { ItemCardComponent } from './components/item-card/item-card.component';
 import { IntervalComponent } from './nobservable/interval/interval.component';
 import { OfFromComponent } from './nobservable/of-from/of-from.component';
+import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { OfFromComponent } from './nobservable/of-from/of-from.component';
     FromEventComponent,
     ItemCardComponent,
     IntervalComponent,
-    OfFromComponent
+    OfFromComponent,
+    ToarrayComponent
   ],
   imports: [
     // NgbModule,
