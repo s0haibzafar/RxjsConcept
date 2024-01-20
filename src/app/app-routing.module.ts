@@ -7,6 +7,7 @@ import { FromEventComponent } from './nobservable/from-event/from-event.componen
 import { IntervalComponent } from './nobservable/interval/interval.component';
 import { OfFromComponent } from './nobservable/of-from/of-from.component';
 import { ToarrayComponent } from './nobservable/toarray/toarray.component';
+import { CustomeComponent } from './nobservable/custome/custome.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: 'toArray',
         component: ToarrayComponent,
+      },
+      {
+        path: 'custome',
+        component: CustomeComponent,
       },
     ]
   },
