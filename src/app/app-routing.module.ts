@@ -6,6 +6,7 @@ import { ListComponent } from './nobservable/list/list.component';
 import { FromEventComponent } from './nobservable/from-event/from-event.component';
 import { IntervalComponent } from './nobservable/interval/interval.component';
 import { OfFromComponent } from './nobservable/of-from/of-from.component';
+import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
       {
         path: 'ofFrom',
         component: OfFromComponent,
+      },
+      {
+        path: 'toArray',
+        component: ToarrayComponent,
       },
     ]
   },
