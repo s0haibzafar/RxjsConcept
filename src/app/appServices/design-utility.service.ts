@@ -14,4 +14,11 @@ export class DesignUtilityService {
     document.getElementById(containerId)?.appendChild(el);
   }
 
+  printLi(i: string, containerId: string) {
+    let el = document.createElement('li');
+    el.innerText = i;
+
+    document.getElementById(containerId)?.appendChild(el);
+  }
+
 }
