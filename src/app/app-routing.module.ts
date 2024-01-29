@@ -8,6 +8,7 @@ import { IntervalComponent } from './nobservable/interval/interval.component';
 import { OfFromComponent } from './nobservable/of-from/of-from.component';
 import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 import { CustomeComponent } from './nobservable/custome/custome.component';
+import { MapComponent } from './nobservable/map/map.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path: 'custome',
         component: CustomeComponent,
+      },
+      {
+        path: 'map',
+        component: MapComponent,
       },
     ]
   },
