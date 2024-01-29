@@ -14,6 +14,7 @@ import { IntervalComponent } from './nobservable/interval/interval.component';
 import { OfFromComponent } from './nobservable/of-from/of-from.component';
 import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 import { CustomeComponent } from './nobservable/custome/custome.component';
+import { MapComponent } from './nobservable/map/map.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CustomeComponent } from './nobservable/custome/custome.component';
     IntervalComponent,
     OfFromComponent,
     ToarrayComponent,
-    CustomeComponent
+    CustomeComponent,
+    MapComponent
   ],
   imports: [
     // NgbModule,
