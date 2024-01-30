@@ -9,6 +9,7 @@ import { OfFromComponent } from './nobservable/of-from/of-from.component';
 import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 import { CustomeComponent } from './nobservable/custome/custome.component';
 import { MapComponent } from './nobservable/map/map.component';
+import { PluckComponent } from './nobservable/pluck/pluck.component';
 
 
 const routes: Routes = [
@@ -47,6 +48,10 @@ const routes: Routes = [
       {
         path: 'map',
         component: MapComponent,
+      },
+      {
+        path: 'pluck',
+        component: PluckComponent,
       },
     ]
   },
