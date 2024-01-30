@@ -1,0 +1,33 @@
+<div class="my-3">
+    <h2 >Pluck</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-md-6">
+            <strong>Ex - 01</strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border rounded">
+                <strong>Pluck</strong> by property
+            </p>
+            <br>
+            <p><strong class="">Name</strong></p>
+            <div *ngFor="let i of msg1">
+                {{i}}
+            </div>
+        </div>
+        <div class="col-md-6">
+            <strong>Ex - 02</strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border rounded">
+                <strong>Pluck</strong>  by pluck
+            </p>
+            <br>
+            <p><strong class="text-success">Name</strong></p>
+            <div *ngFor="let i of msg2">
+                {{i}}
+            </div>
+        </div>
+        
+    </div>
+
+</div>
