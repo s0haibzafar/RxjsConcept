@@ -16,6 +16,7 @@ import { ToarrayComponent } from './nobservable/toarray/toarray.component';
 import { CustomeComponent } from './nobservable/custome/custome.component';
 import { MapComponent } from './nobservable/map/map.component';
 import { PluckComponent } from './nobservable/pluck/pluck.component';
+import { FilterComponent } from './nobservable/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PluckComponent } from './nobservable/pluck/pluck.component';
     ToarrayComponent,
     CustomeComponent,
     MapComponent,
-    PluckComponent
+    PluckComponent,
+    FilterComponent
   ],
   imports: [
     // NgbModule,
