@@ -1,0 +1,73 @@
+<div class="my-3">
+    <h2>Filter</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <strong>Ex - 01</strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border rounded">
+                <strong>Filter</strong> by name
+            </p>
+            <br>
+            <!-- <p>Message  .... <strong class="text-success">{{'msg1'}}</strong></p> -->
+            <table class="table">
+                <tr>
+                    <th><strong>Id</strong></th>
+                    <th><strong>Name</strong></th>
+                </tr>
+                <tr *ngFor="let item of data1">
+                    <td class="ps-2">{{item.id}}</td>
+                    <td class="ps-2">{{item.name}}</td>
+                </tr>
+                
+            </table>
+
+        </div>
+        <div class="col-md-4">
+            <strong>Ex - 02</strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border rounded">
+                <strong>Filter</strong> by gender
+            </p>
+            <br>
+            <!-- <p>Message .... <strong class="text-success">{{'msg2'}}</strong></p> -->
+            <table class="table">
+                <tr>
+                    <th><strong>Id</strong></th>
+                    <th><strong>Name</strong></th>
+                    <th><strong>Gender</strong></th>
+                </tr>
+                <tr *ngFor="let item of data2">
+                    <td class="ps-2">{{item.id}}</td>
+                    <td class="ps-2">{{item.name}}</td>
+                    <td class="ps-2">{{item.gender}}</td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div class="col-md-4">
+            <strong>Ex - 01</strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border rounded">
+                <strong>Filter</strong> nth item
+            </p>
+            <br>
+            <!-- <p>Data comming here ....</p> -->
+            <!-- <ul id="elContainer"></ul> -->
+            <table class="table">
+                <tr>
+                    <th><strong>Id</strong></th>
+                    <th><strong>Name</strong></th>
+                </tr>
+                <tr *ngFor="let item of data3">
+                    <td class="ps-2">{{item.id}}</td>
+                    <td class="ps-2">{{item.name}}</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</div>
