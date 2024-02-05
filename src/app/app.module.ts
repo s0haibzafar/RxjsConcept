@@ -17,6 +17,7 @@ import { CustomeComponent } from './nobservable/custome/custome.component';
 import { MapComponent } from './nobservable/map/map.component';
 import { PluckComponent } from './nobservable/pluck/pluck.component';
 import { FilterComponent } from './nobservable/filter/filter.component';
+import { TapComponent } from './nobservable/tap/tap.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FilterComponent } from './nobservable/filter/filter.component';
     CustomeComponent,
     MapComponent,
     PluckComponent,
-    FilterComponent
+    FilterComponent,
+    TapComponent
   ],
   imports: [
     // NgbModule,
