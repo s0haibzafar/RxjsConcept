@@ -12,6 +12,7 @@ import { MapComponent } from './nobservable/map/map.component';
 import { PluckComponent } from './nobservable/pluck/pluck.component';
 import { FilterComponent } from './nobservable/filter/filter.component';
 import { TapComponent } from './nobservable/tap/tap.component';
+import { TakeComponent } from './nobservable/take/take.component';
 
 
 const routes: Routes = [
@@ -62,6 +63,10 @@ const routes: Routes = [
       {
         path: 'tap',
         component: TapComponent,
+      },
+      {
+        path: 'take',
+        component: TakeComponent,
       }
     ]
   },
