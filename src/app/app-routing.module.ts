@@ -13,6 +13,7 @@ import { PluckComponent } from './nobservable/pluck/pluck.component';
 import { FilterComponent } from './nobservable/filter/filter.component';
 import { TapComponent } from './nobservable/tap/tap.component';
 import { TakeComponent } from './nobservable/take/take.component';
+import { RetryComponent } from './nobservable/retry/retry.component';
 
 
 const routes: Routes = [
@@ -67,6 +68,10 @@ const routes: Routes = [
       {
         path: 'take',
         component: TakeComponent,
+      },
+      {
+        path: 'retry',
+        component: RetryComponent,
       }
     ]
   },

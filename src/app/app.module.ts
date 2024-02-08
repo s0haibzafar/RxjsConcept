@@ -19,6 +19,8 @@ import { PluckComponent } from './nobservable/pluck/pluck.component';
 import { FilterComponent } from './nobservable/filter/filter.component';
 import { TapComponent } from './nobservable/tap/tap.component';
 import { TakeComponent } from './nobservable/take/take.component';
+import { RetryComponent } from './nobservable/retry/retry.component';
+import { HttpClientModule } from "@angular/common/http"; 
 
 @NgModule({
   declarations: [
@@ -37,12 +39,14 @@ import { TakeComponent } from './nobservable/take/take.component';
     PluckComponent,
     FilterComponent,
     TapComponent,
-    TakeComponent
+    TakeComponent,
+    RetryComponent
   ],
   imports: [
     // NgbModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
