@@ -20,7 +20,8 @@ import { FilterComponent } from './nobservable/filter/filter.component';
 import { TapComponent } from './nobservable/tap/tap.component';
 import { TakeComponent } from './nobservable/take/take.component';
 import { RetryComponent } from './nobservable/retry/retry.component';
-import { HttpClientModule } from "@angular/common/http"; 
+import { HttpClientModule } from "@angular/common/http";
+import { DebounceTimeComponent } from './nobservable/debounce-time/debounce-time.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { HttpClientModule } from "@angular/common/http";
     FilterComponent,
     TapComponent,
     TakeComponent,
-    RetryComponent
+    RetryComponent,
+    DebounceTimeComponent
   ],
   imports: [
     // NgbModule,
