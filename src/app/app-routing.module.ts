@@ -14,6 +14,7 @@ import { FilterComponent } from './nobservable/filter/filter.component';
 import { TapComponent } from './nobservable/tap/tap.component';
 import { TakeComponent } from './nobservable/take/take.component';
 import { RetryComponent } from './nobservable/retry/retry.component';
+import { DebounceTimeComponent } from './nobservable/debounce-time/debounce-time.component';
 
 
 const routes: Routes = [
@@ -72,6 +73,10 @@ const routes: Routes = [
       {
         path: 'retry',
         component: RetryComponent,
+      },
+      {
+        path: 'debounceTime',
+        component: DebounceTimeComponent,
       }
     ]
   },
