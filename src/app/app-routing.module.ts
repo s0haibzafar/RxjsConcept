@@ -15,6 +15,7 @@ import { TapComponent } from './nobservable/tap/tap.component';
 import { TakeComponent } from './nobservable/take/take.component';
 import { RetryComponent } from './nobservable/retry/retry.component';
 import { DebounceTimeComponent } from './nobservable/debounce-time/debounce-time.component';
+import { SubjectComponent } from './nobservable/subject/subject.component';
 
 
 const routes: Routes = [
@@ -77,6 +78,10 @@ const routes: Routes = [
       {
         path: 'debounceTime',
         component: DebounceTimeComponent,
+      },
+      {
+        path: 'subject',
+        component: SubjectComponent,
       }
     ]
   },
