@@ -22,6 +22,10 @@ import { TakeComponent } from './nobservable/take/take.component';
 import { RetryComponent } from './nobservable/retry/retry.component';
 import { HttpClientModule } from "@angular/common/http";
 import { DebounceTimeComponent } from './nobservable/debounce-time/debounce-time.component';
+import { SubjectComponent } from './nobservable/subject/subject.component';
+import { Comp1Component } from './components/comp1/comp1.component';
+import { Comp2Component } from './components/comp2/comp2.component';
+import { Comp3Component } from './components/comp3/comp3.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { DebounceTimeComponent } from './nobservable/debounce-time/debounce-time
     TapComponent,
     TakeComponent,
     RetryComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    SubjectComponent,
+    Comp1Component,
+    Comp2Component,
+    Comp3Component
   ],
   imports: [
     // NgbModule,
