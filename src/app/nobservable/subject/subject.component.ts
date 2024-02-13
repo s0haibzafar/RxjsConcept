@@ -8,10 +8,15 @@ import { DesignUtilityService } from 'src/app/appServices/design-utility.service
 })
 export class SubjectComponent implements OnInit, OnDestroy {
 
+  subjectData = "Ali" ;
+
   constructor(private du:DesignUtilityService) { }
 
   ngOnInit(): void {
     this.du.exclusive.next(true);
+    this.du.exclusiveInput.subscribe(res=>{
+      this.subjectData = res;
+    })
   }
 
   ngOnDestroy(): void {
